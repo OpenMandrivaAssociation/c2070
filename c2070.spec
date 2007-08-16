@@ -1,8 +1,8 @@
 Summary:	Lexmark 2070 Printer color driver
 Name:		c2070
 Version:	0.99
-Release:	%mkrel 2
-Group:		File tools
+Release:	%mkrel 3
+Group:		System/Printing
 License:	GPL
 URL:		http://www.linuxprinting.org/show_driver.cgi?driver=%{name}
 Source0:	ftp://mirror.linuxsoft.cz/pool/5865/%{name}-%{version}.tar.gz
