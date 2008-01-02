@@ -9,6 +9,7 @@ Source0:	ftp://mirror.linuxsoft.cz/pool/5865/%{name}-%{version}.tar.gz
 Patch0:		c2070-0.99-looplimits.patch
 Conflicts:	printer-utils = 2007
 Conflicts:	printer-filters = 2007
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This filter allows to color print in a Lexmark 2070 (windows GDI) printer.
