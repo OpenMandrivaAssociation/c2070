@@ -1,7 +1,7 @@
 Summary:	Lexmark 2070 Printer color driver
 Name:		c2070
 Version:	0.99
-Release:	%mkrel 6
+Release:	%mkrel 7
 Group:		System/Printing
 License:	GPL
 URL:		http://www.linuxprinting.org/show_driver.cgi?driver=%{name}
@@ -17,11 +17,10 @@ This filter allows to color print in a Lexmark 2070 (windows GDI) printer.
 %prep
 
 %setup -q
-
-%patch -p1 -b .looplimits
+%patch0 -p1 -b .looplimits
 
 %build
-%{__cc} %{optflags} -o c2070 c2070.c
+%{__cc} %{optflags} %{ldflags} -o c2070 c2070.c
 
 %install
 rm -rf %{buildroot}
