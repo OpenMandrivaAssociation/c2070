@@ -4,7 +4,7 @@ Version:	0.99
 Release:	25
 Group:		System/Printing
 License:	GPL
-URL:		http://www.linuxprinting.org/show_driver.cgi?driver=%{name}
+URL:		https://www.linuxprinting.org/show_driver.cgi?driver=%{name}
 Source0:	ftp://mirror.linuxsoft.cz/pool/5865/%{name}-%{version}.tar.gz
 Patch0:		c2070-0.99-looplimits.patch
 Conflicts:	printer-utils = 2007
